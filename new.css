@@ -1,0 +1,65 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: URW Chancery L, cursive;
+    font-size:25px;
+}
+.aside{
+    position:fixed;
+    left:0;
+    top:50%;
+}
+.aside a{
+    background-color: rgb(119,61,19);
+    text-decoration:none;
+    border:1.5px solid rgb(252,227,85);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color:rgb(26,102,255);
+}
+.side{
+    padding:8px;
+}
+.header{
+    background-color:rgb(204,153,102);
+}
+.header a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.himg{
+    background: url("grill%20main%20page") no-repeat center fixed;
+    background-size:cover;
+    height:500px;
+    width: 100%;
+}
+.about{
+    border:2px solid black;
+    padding:50px;
+    background-color: rgb(102,51,0);
+    color:rgb(254,229,84);
+}
+p:first-child{
+    border:2px dashed rgb(254,229,84);
+    width:100%;
+}
+.specials{
+    padding-bottom:20px;
+}
+.specials > img{
+    height:200px;
+    width:200px;
+    margin-right:10px;
+    margin-top:10px;
+}
+.footer{
+    background-color: rgb(102, 102, 51);
+    height:100px;
+}
+@media only screen and (max-width: 700px) {
+    *{
+        font-size:15px;
+    }
+}
